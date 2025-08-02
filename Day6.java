@@ -86,3 +86,53 @@
         
 //     }
 // }
+// import java.util.Scanner;
+// public class Day6
+// {
+//     public static void main(String atd[])
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter rows and col");
+//         int row = sc.nextInt();sc.nextLine();
+//         // int col = sc.nextInt();sc.nextLine();
+//         for(int i=1;i<=row;i++)
+//         {
+//             for(int j=row;j>=i;j--)
+//             {
+//                 if(i==1||i==row||j==row||j==i)
+//                 {
+//                     System.out.print("*");
+//                 }
+//                 else
+//                 System.out.print(" ");
+//             }
+//             System.out.println();
+//         }
+
+//     } 
+// }
+import java.util.Scanner;
+
+public class Day6 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of rows: ");
+        int row = sc.nextInt();
+
+        for (int i = 1; i <= row; i++) {
+            for (int j = 1; j < i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = i; j <= row; j++) {
+                if (i == 1 || i == row || j == i || j == row) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
