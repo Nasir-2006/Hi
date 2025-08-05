@@ -10,24 +10,24 @@
 //     }
     
 // }
-import java.util.Scanner;
-public class Day9{
-static void check(int age)
-{
-    if(age<18)
-    {
-        System.out.println("Not eligible");
-    }
-    else
-    System.out.println("Eligible");
-}
-public static void main(String atd[])
-{
-    int age;
-    Scanner sc = new Scanner(System.in);
-    System.err.println("Enter age:");
-    age = sc.nextInt();sc.nextLine();
-    check(age);sc.close();
-}
+// import java.util.Scanner;
+// public class Day9{
+// static void check(int age)
+// {
+//     if(age<18)
+//     {
+//         System.out.println("Not eligible");
+//     }
+//     else
+//     System.out.println("Eligible");
+// }
+// public static void main(String atd[])
+// {
+//     int age;
+//     Scanner sc = new Scanner(System.in);
+//     System.err.println("Enter age:");
+//     age = sc.nextInt();sc.nextLine();
+//     check(age);sc.close();
+// }
 
-}
+// }
