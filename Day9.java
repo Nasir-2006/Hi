@@ -31,3 +31,19 @@
 // }
 
 // }
+// import java.util.Scanner;
+// public class Day9 {
+
+//     static int sum(int x,int y)
+//     {
+//         return(x+y);
+//     }
+//     public static void main(String[] args) {
+//         int num1,num2;
+//         System.out.println("Enter numbers");
+//         Scanner sc = new Scanner(System.in);
+//         num1 = sc.nextInt();sc.nextLine();
+//         num2 = sc.nextInt();sc.nextLine();
+//        System.out.println( sum(num1,num2));
+//     }
+// }
