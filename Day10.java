@@ -9,18 +9,15 @@ public class Day10 {
         {
             return 0;
         }
-    }
-    
-        public static void main(String atd[])
+}
+ public static void main(String atd[])
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter num:");
         int num = sc.nextInt();sc.nextLine();
         System.out.print(sum(num));
     }
-    
-    
-    }
+}
 
     
 
